@@ -1,4 +1,4 @@
-# Machine Learning Assignment 1
+# Machine Learning Assignment 2
 
 This repository contains all code used to complete the assignment, including the original dataset to allow everything to be easily run.
 
@@ -13,7 +13,7 @@ The intended order is:
 4. `ModelUsage.ipynb` - Train and test ML models.
 
 #### Note
-The `train_set.csv`, `train_set_prepped.csv`, `test_set.csv`, and `test_set_prepped.csv` are all generated `.csv` files, derived from `AmesHousing.csv` using code.
+The `train_set.csv`, `train_set_prepped.csv`, `test_set.csv`, and `test_set_prepped.csv` are all generated `.csv` files, derived from `diabetes_binary_classification_data.csv` using code.
 
 # Dependencies
 Despite it being quite easy to read, this is solely for convenience.
