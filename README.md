@@ -1,6 +1,6 @@
 # Machine Learning Assignment 2
 
-This repository contains all code used to complete the assignment, including the original dataset to allow everything to be easily run.
+This repository contains all the code used to complete the assignment, including the original dataset to allow everything to be easily run.
 
 Each notebook contains code and some information about what the code does. All outputs and figures are generated upon running their respective cells.
 
