@@ -21,3 +21,6 @@ temp.ipynb
 # Generated files
 generated/*
 !generated/readme.md
+
+# VS Code
+.vscode/
