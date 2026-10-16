@@ -17,3 +17,7 @@ temp.ipynb
 
 # PDFs
 *.pdf
+
+# Generated files
+generated/*
+!generated/readme.md
