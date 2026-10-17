@@ -26,7 +26,7 @@ Despite it being quite easy to read, this is solely for convenience.
 
 # Results & Answers to Assignment Questions
 ## Q1
-Class 0 = no diabetes; class 1 = prediabetes or diabetes. The target is imbalanced: ~86% class 0, ~14% class 1. This matters because high accuracy can hide a model that never predicts class 1. Evaluation requires precision, recall, and confusion matrix to assess true performance on the minority class.
+Class 0 = no diabetes; class 1 = prediabetes or diabetes. The target is imbalanced: ~86% class 0, ~14% class 1. This matters because high accuracy can hide a model that never predicts class 1. Evaluation requires precision, recall, and a confusion matrix to assess the true performance on the minority class.
 
 ## Q2
 BMI (numerical): measured Body Mass Index, 12-98.
@@ -35,7 +35,7 @@ HighBP (binary): 0 = no, 1 = has high blood pressure.
 
 GenHlth (ordinal): 1 = excellent to 5 = poor.
 
-Same number format, different meanings. BMI is continuous, HighBP is yes/no, GenHlth is ordered labels with no fixed distance between values. Treating them all as numbers leads to wrong preprocessing.
+Same number formats with different meanings. BMI is continuous, HighBP is a binary yes/no, and GenHlth is ordered labels with no fixed distance between values. Treating them all as numbers leads to wrong preprocessing.
 
 ## Q3
 You explored all input features. Which three to five findings were most informative or interesting?
@@ -47,11 +47,17 @@ TEST must remain separate so that evaluation measures true performance on unseen
 ## Q5
 False positive: predicted diabetes (class 1), but actually no diabetes (class 0) — unnecessary concern and potential follow-up costs. False negative: predicted no diabetes (class 0), but actually has prediabetes/diabetes (class 1) — missed opportunity for intervention.
 
-Accuracy: overall correct predictions. Precision: of those predicted class 1, how many truly are. Recall: of actual class 1, how many were found.
+- Accuracy: overall correct predictions. 
+
+- Precision: of those predicted class 1, how many truly are. 
+
+- Recall: of actual class 1, how many were found.
 
 Accuracy alone is not enough because with ~86% class 0, a model predicting all zeros achieves 86% accuracy while catching zero diabetes cases.
 
 ## Q6
+
+
 
 ## Q7
 
