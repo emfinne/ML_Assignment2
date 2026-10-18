@@ -64,8 +64,8 @@ Lowering the threshold from 0.50 to 0.40 means more predictions become class 1. 
 
 | Threshold | Accuracy | Precision | Recall | F1 | False positives | False negatives |
 |:---|:---|:---|:---|:---|:---|:---|
-| 0.50 | - | - | - | - | - | - |
-| 0.40 | - | - | - | - | - | - |
+| 0.50 | 0.8632	| 0.5310 | 0.1573 | 0.2427 | 1473 | 8936 |
+| 0.40 | 0.8578	| 0.4819 | 0.2703 | 0.3463 | 3081 | 7738 |
 
 At 0.50 the model is more conservative, catching fewer diabetes cases but with higher confidence. At 0.40 the model is more sensitive, flagging more potential cases for follow-up at the cost of more false alarms.
 
@@ -87,9 +87,11 @@ Limitations
 | Member | Contribution |
 |:---|:---|
 | Oscar | S1 and questions |
-| placeholder | Data splitting and encoding |
-| placeholder | Model usage and testing |
-| placeholder | Implementation of data preparation |
+| Wiktor | Data splitting and encoding |
+| Wiktor | Model usage and testing |
+| Wiktor | Merge Conflict Resolver |
+| Emil | Implementation of data preparation |
+| Emil | Exploratory Data Analysis |
 | Group effort | Decision regarding data preparation |
 
 ---
