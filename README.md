@@ -7,10 +7,11 @@ Each notebook contains code and some information about what the code does. All o
 ## How to use
 The order of executing the notebooks matters.
 The intended order is:
-1. `S1-UnderstandData.ipynb` - Understand the dataset; what it contains and the meaning.
-2. `S2-ExploreData.ipynb` - Analyze the various features.
-3. `S3-TrainTestSplit.ipynb` - Generates a train and test dataset into the `generated/` directory.
-4. `S4S5S6S7.ipynb` - Uses a single pipeline to represent and later analyze a **Logistic Regression** model with a few different pipelines. This is 4 steps in 1 as it is difficult to share the same pipeline across multiple files. 
+1. [S1-UnderstandData.ipynb](S1-UnderstandData.ipynb) - Understand the dataset; what it contains and the meaning.
+2. [S2-ExploreData.ipynb](S2-ExploreData.ipynb) - Analyze the various features.
+3. [S3-TrainTestSplit.ipynb](S3-TrainTestSplit.ipynb) - Generates a train and test dataset into the `generated/` directory.
+4. [S4S5S6S7.ipynb](S4S5S6S7.ipynb) - Uses a single pipeline to represent and later analyze a **Logistic Regression** model with a few different pipelines. This is 4 steps in 1 as it is difficult to share the same pipeline across multiple files. 
+5. [S8-Conclusion.md](S8-Conclusion.md) - Contains no code, just a conclusion.
 
 #### Note
 Everything (except the `readme.md`) in the `generated/` directory contains files created by scripts.
