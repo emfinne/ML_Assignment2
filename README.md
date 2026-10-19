@@ -39,8 +39,10 @@ GenHlth (ordinal): 1 = excellent to 5 = poor.
 Same number formats with different meanings. BMI is continuous, HighBP is a binary yes/no, and GenHlth is ordered labels with no fixed distance between values. Treating them all as numbers leads to wrong preprocessing.
 
 ### Q3
-You explored all input features. Which three to five findings were most informative or interesting?
-What did you observe? What can you conclude from these results, and what can you not conclude?
+The most informative findings were the associations between diabetes and cardiovascular conditions. Respondents reporting high blood pressure, high cholesterol, a stroke, or heart disease/heart attack had higher proportions of diabetes than respondents without those conditions. In contrast, the fruit and vegetable consumption features showed smaller differences in diabetes proportions.
+These patterns describe associations in the surveyed population, they do not establish that these conditions cause diabetes or occurred before it. The survey also does not establish whether reported lifestyle habits preceded diagnosis. Respondents may have changed their diet or activity after learning they had diabetes, which could influence the observed associations. Therefore, small differences in the diet features do not demonstrate that diet is unimportant.
+
+
 
 ### Q4
 TEST must remain separate so that evaluation measures true performance on unseen data. If preprocessing or model fitting uses TEST information, scores become overly optimistic and do not reflect how the model would perform on new patients.
