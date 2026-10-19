@@ -1,3 +1,6 @@
+# Repository link
+https://github.com/emfinne/ML_Assignment2
+
 # Machine Learning Assignment 2
 
 This repository contains all the code used to complete the assignment, including the original dataset to allow everything to be easily run.
